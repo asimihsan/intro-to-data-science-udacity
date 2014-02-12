@@ -61,7 +61,32 @@ package {
 
 # statsmodels and PyTables are very naughty! If you attempt to put it
 # into a requirements file without these dependencies it barfs.
-exec { "pip install numpy scipy pandas patsy numexpr cython":
+exec { "pip install numpy":
+    require => [Class["python"], Package[$packages]],
+    timeout => 0,
+}
+->
+exec { "pip install scipy":
+    require => [Class["python"], Package[$packages]],
+    timeout => 0,
+}
+->
+exec { "pip install pandas":
+    require => [Class["python"], Package[$packages]],
+    timeout => 0,
+}
+->
+exec { "pip install patsy":
+    require => [Class["python"], Package[$packages]],
+    timeout => 0,
+}
+->
+exec { "pip install numexpr":
+    require => [Class["python"], Package[$packages]],
+    timeout => 0,
+}
+->
+exec { "pip install cython":
     require => [Class["python"], Package[$packages]],
     timeout => 0,
 }
