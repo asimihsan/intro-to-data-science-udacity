@@ -28,7 +28,7 @@ within the guest VM. You could either copy files or use softlinks to
 share host directories on your guest; both the host and guest can modify
 files and both will see the changes.
 
-## Using IPython Notebook
+### Using IPython Notebook from the VM on your host machine
 
 When you run `ipython notebook` by default it starts an HTTP server on
 port 8888. Vagrant will then attempt to map port 58888 on your host PC
