@@ -31,6 +31,8 @@ files and both will see the changes.
 ### Using IPython Notebook from the VM on your host machine
 
 When you run `ipython notebook` by default it starts an HTTP server on
-port 8888. Vagrant will then attempt to map port 58888 on your host PC
-to port 8888 in the guest PC. Try to browse to `http://localhost:58888`
-and you should be able to access your IPython Notebook.
+port 8888 but only bound to the local loopback interface. In the VM you
+must explicitly call `ipython notebook --ip 0.0.0.0` instead. Vagrant
+will then attempt to map port 58888 on your host PC to port 8888 in the
+guest PC. Try to browse to `http://localhost:58888` and you should be
+able to access your IPython Notebook.
