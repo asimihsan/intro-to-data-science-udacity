@@ -8,6 +8,7 @@ Science" on Udacity
 -   Install VirtualBox: [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 -   Install Vagrant: [http://www.vagrantup.com/downloads.html](http://www.vagrantup.com/downloads.html)
 -   Clone this repo to your computer: `git clone git@github.com:asimihsan/intro-to-data-science-udacity.git`
+-   Change directory to your clone: `cd intro-to-data-science-udacity`
 -   From the root of the clone run: `vagrant up`
 -   Check for errors. There should be none. A warning about the version
     of the Guest Additions is harmless.
