@@ -13,7 +13,7 @@ Science" on Udacity
     of the Guest Additions is harmless.
 -   SSH onto the box using: `vagrant ssh`.
 -   For more basic information on using Vagrant refer to the official
-    documentation: [http://docs.vagrantup.com/v2/getting-started/index.html](http://docs.vagrantup.com/v2/getting-started/index.html
+    documentation: [http://docs.vagrantup.com/v2/getting-started/index.html](http://docs.vagrantup.com/v2/getting-started/index.html)
 -   After starting the virtual machine you can run an IPython Notebook
     server by running: `ipython notebook --ip 0.0.0.0 --pylab inline`.
     Then on your host machine browse to `http://localhost:58888`.
