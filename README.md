@@ -25,6 +25,6 @@ following for more information: [https://github.com/mitchellh/vagrant-aws](https
 ## Using IPython Notebook
 
 When you run `ipython notebook` by default it starts an HTTP server on
-port 8888. Vagrant will thebn attempt to map port 58888 on your host PC
+port 8888. Vagrant will then attempt to map port 58888 on your host PC
 to port 8888 in the guest PC. Try to browse to `http://localhost:58888`
 and you should be able to access your IPython Notebook.
