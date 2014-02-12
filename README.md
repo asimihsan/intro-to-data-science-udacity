@@ -15,9 +15,9 @@ Science" on Udacity
 -   For more basic information on using Vagrant refer to the official
     documentation: [http://docs.vagrantup.com/v2/getting-started/index.html](http://docs.vagrantup.com/v2/getting-started/index.html)
 -   After starting the virtual machine you can run an IPython Notebook
-    server by running: `ipython notebook --ip 0.0.0.0 --pylab inline`.
-    Then on your host machine browse to `http://localhost:58888`.
-    Congratulations! 
+    server by running the following inside the guest VM: `ipython
+    notebook --ip 0.0.0.0 --pylab inline`. Then on your host machine
+    browse to `http://localhost:58888`. Congratulations!
 
 Using Vagrant you can also set up Amazon EC2 instances. See the 
 following for more information: [https://github.com/mitchellh/vagrant-aws](https://github.com/mitchellh/vagrant-aws)
