@@ -22,6 +22,12 @@ Science" on Udacity
 Using Vagrant you can also set up Amazon EC2 instances. See the 
 following for more information: [https://github.com/mitchellh/vagrant-aws](https://github.com/mitchellh/vagrant-aws)
 
+If you want to quickly share files on your local host machine with the
+guest VM note that the root of this repository is mapped to `/vagrant`
+within the guest VM. You could either copy files or use softlinks to
+share host directories on your guest; both the host and guest can modify
+files and both will see the changes.
+
 ## Using IPython Notebook
 
 When you run `ipython notebook` by default it starts an HTTP server on
