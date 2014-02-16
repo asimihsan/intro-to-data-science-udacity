@@ -7,7 +7,9 @@ Science" on Udacity
 
 -   Install VirtualBox: [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 -   Install Vagrant: [http://www.vagrantup.com/downloads.html](http://www.vagrantup.com/downloads.html)
--   Clone this repo to your computer: `git clone git@github.com:asimihsan/intro-to-data-science-udacity.git`
+-   Download this repository's contents to your machine. Either:
+    1.   [Install Git](http://git-scm.com/book/en/Getting-Started-Installing-Git), then clone this repo to your computer: `git clone git@github.com:asimihsan/intro-to-data-science-udacity.git`
+    2.   [Download](https://github.com/asimihsan/intro-to-data-science-udacity/archive/master.zip) then extract a ZIP file of this repo.
 -   Change directory to your clone: `cd intro-to-data-science-udacity`
 -   From the root of the clone run: `vagrant up`
 -   Check for errors. There should be none. A warning about the version
